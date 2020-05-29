@@ -367,7 +367,7 @@ namespace UnitTests
         }
 
         [TestMethod]
-        public void ProductModel_ToString_Should_Equal_()
+        public void ProductModel_ToString_Should_Equal_Itself()
         {
             // Arrange
             var result = new ProductModel();
@@ -377,7 +377,7 @@ namespace UnitTests
 
             // Assert
 
-            Assert.AreEqual(serial, result);
+            Assert.AreEqual(serial, result.ToString());
         }
     }
 }
