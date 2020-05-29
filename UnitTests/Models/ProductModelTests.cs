@@ -379,7 +379,6 @@ namespace UnitTests
 
             Assert.AreEqual(serial, result.ToString());
 
-            //yes
         }
     }
 }
